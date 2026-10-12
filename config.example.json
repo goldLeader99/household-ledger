@@ -1,0 +1,42 @@
+{
+  "members": [
+    "Member 1",
+    "Member 2"
+  ],
+  "accounts": [
+    {
+      "id": "primary-chequing",
+      "owner": "Member 1",
+      "name": "RBC Chequing",
+      "kind": "Debit",
+      "importer": "rbc_chequing"
+    },
+    {
+      "id": "secondary-chequing",
+      "owner": "Member 2",
+      "name": "Chequing Account",
+      "kind": "Debit",
+      "importer": null
+    },
+    {
+      "id": "example-credit",
+      "owner": "Member 1",
+      "name": "Credit Card",
+      "kind": "Credit",
+      "importer": null
+    },
+    {
+      "id": "example-loc",
+      "owner": "Member 1",
+      "name": "Line of Credit",
+      "kind": "LOC",
+      "importer": null
+    }
+  ],
+  "ollama": {
+    "model": "qwen3.5:4b",
+    "url": "http://127.0.0.1:11434",
+    "wsl_distribution": null
+  },
+  "category_rules": []
+}
